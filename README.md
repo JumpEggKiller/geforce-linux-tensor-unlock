@@ -7,6 +7,8 @@ Ubuntu 单卡／多卡 Tensor Core Unlock 复现资料：GPU 探测、固件加�
 ### 安装
 
 ```bash
+git clone https://github.com/JumpEggKiller/geforce-linux-tensor-unlock.git
+cd geforce-linux-tensor-unlock
 bash scripts/detect-gpus.sh
 bash scripts/fetch-upstream.sh unlock
 (cd upstream/unlock && make install)
