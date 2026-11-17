@@ -1,0 +1,9 @@
+upstream/
+build/
+local-logs/
+*.ko
+*.o
+*.bin
+*.run
+*.deb
+__pycache__/
